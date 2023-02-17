@@ -9,8 +9,10 @@ body {
 }
 
 .container {
-    width: 1080px;
+    /* width: 1080px; */
     max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 25px
 }
 
 .anchor {
@@ -19,13 +21,16 @@ body {
 }
 
 .line {
-    width: 900px;
     border: #1B3970 2px solid;
     margin: 0 auto;
 }
 
 .bg_white {
     background-color: #fff;
+}
+
+.bg-dark {
+    background-color: #47525E;
 }
 
 .title {
@@ -38,6 +43,10 @@ body {
     font-weight: 400;
 }
 
+.bg_blue {
+    background-color: #1B3970;
+}
+
 .color_blue {
     color: #1B3970;
 }
@@ -46,9 +55,9 @@ body {
     color: #F28004;
 }
 
-.menu {
-    height: 85px
-}
+/* .menu {
+    height: 85px; 
+} */
 
 .logo {
     width: 150px;
@@ -56,15 +65,24 @@ body {
 
 .carousel {
     margin-top: 50px;
-    height: calc(100vh - 80px);
+    max-height: calc(100vh - 80px);
 }
 
 .quadro_venda {
-    border: #1B3970 1px solid;
+    border: #1B3970 2px solid;
     border-radius: 5px;
-    width: 1000px;
-    height: 450px;
+    /* width: 1000px; */
+    /* height: 450px; */
     margin: 0 auto;
+}
+
+.card {
+    border: none;
+    border-radius: 5px;
+}
+
+.card-body {
+    padding: 1.5rem;
 }
 
 .shadow {
