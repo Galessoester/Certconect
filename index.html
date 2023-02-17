@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <header class="fixed-top bg-white">
+    <header class="fixed-top bg-white shadow">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
@@ -29,7 +29,7 @@
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                             <li>
                                 <a class="nav-link" href="#certificados">Certificados</a>
@@ -96,7 +96,7 @@
         <div class="container mb-5 row">
             <div class="quadro_venda p-4 col-10 ">
                 <section class="">
-                    <div>
+                    <div class="color_dark">
                         <h4>Selecione:</h4>
                     </div>
                     <ul class="nav justify-content-center bg-light">
@@ -174,35 +174,118 @@
     <section>
         <div class="container">
             <div class="row justify-content-around">
-                <div class="col-4">
-                    One of two columns
-                </div>
-                <div class="col-4">
+                <div class="col-7">
                     <div>
-                        <img src="./images/pack.png" alt="">
+                        <h1 class="title color_orange">Renove Seu Certificado Digital</h1>
+                        <h3 class="sub_title color_blue">São apenas quatro passos</h3>
+                        <ul class="color_dark">
+                            <li>1 - Conecte o Certificado Digital que precisa ser renovado</li>
+                            <li>2 - Confira os dados</li>
+                            <li>3 - Faça o pagamento</li>
+                            <li>4 - Emita seu novo Certificado.</li>
+                        </ul>
+                        <div class="col align-self-center">
+                            <a href="#" class="btn bg_yellow text-white">RENOVE AGORA</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 col-md-4">
+                    <div>
+                        <img style="width: 100%;" src="./images/pack.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <div class="anchor" id="contato"></div>
+    <div>
+        <div class="positi">
+            <div class="row justify-content-evenly">
+                <div class="col-4">
 
-    <footer class="bg-dark">
+                </div>
+
+                <div class="col-3 bg_white py-5">
+                    <div class="color_dark">
+                        <h2>Onde estamos</h2>
+                        <p>
+                            Rua José Versolato, 1111, Sala 1106 <br>
+                            São Bernardo do Campo – SP
+                            09750-730
+                        </p>
+                        <p>
+                            Email: contato@certifast.com.br <br>
+                            Tel: (11) 3280-0484
+                        </p>
+                        <p>
+                            <b>Horário de Atendimento</b>
+                        </p>
+                        <p>
+                            Segunda a Sexta das 9h às 18h
+                            (exceto feriados nacionais)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.565596829592!2d-46.55157728575875!3d-23.69148808461841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce42366db803a1%3A0xcf94136842bd98d!2sEdif%C3%ADcio%20Domo%20Business%20-%20Torre%20B%20-%20R.%20Jos%C3%A9%20Versolato%2C%20111%20-%20Sala%20822%20-%20Centro%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009750-730!5e0!3m2!1spt-BR!2sbr!4v1676584737912!5m2!1spt-BR!2sbr"
             height="400" style="border:0; width: 100%;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="container">
+    </div>
+    <footer class="bg_dark">
+        <div class="container py-5">
             <div class="row justify-content-around">
                 <div class="col-md-3">
-                    One of two columns
+                    <div class="pb-3">
+                        <img class="logo" src="./images/logo-1.jpg" alt="">
+                    </div>
+                    <div>
+                        <h5 class="text-white"><strong>Associações</strong></h5>
+                        <a class="link_footer" href="">Autoridade Certificadora Brasileira de Registros</a><br>
+                        <a class="link_footer" href="">Receita Federal</a><br>
+                        <a class="link_footer" href="">CertiSign - Credenciada</a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div>
+                        <ul class="">
+                            <li>
+                                <a class="link_footer" href="#certificados">Certificados</a>
+                            </li>
+                            <li>
+                                <a class="link_footer" href="#outros-produtos">Outros Produtos</a>
+                            </li>
+                            <li>
+                                <a class="link_footer" href="#renovacao">Renovação</a>
+                            </li>
+                            <li>
+                                <a class="link_footer" href="#atendimento">Atendimento</a>
+                            </li>
+                            <li>
+                                <a class="link_footer" href="#contato">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-white">
+                        <p>
+                            A Certifast é uma Autoridade de Registro credenciada originariamente junto à AC Certisign -
+                            <a class="link_footer" href=""> Saiba mais</a>
+                        </p>
+                        <p>
+                            Todos os Certificados Digitais são da ICP BRASIL, o que garante total segurança e
+                            autenticidade nas suas transações.
+                        </p>
+                        <a class="link_footer" href="">Acesso ao repositório da AR (DPN)</a>
+                    </div>
                 </div>
                 <div class="col-md-3">
-                    One of two columns
-                </div>
-                <div class="col-md-3">
-                    One of two columns
-                </div>
-                <div class="col-md-3">
+                    <div class="text-white">
+                        <h5>Formas de Pagamento</h5>
+                        <img src="./images/formas-de-pagamento-1.png" alt="">
+                    </div>
 
                 </div>
             </div>
