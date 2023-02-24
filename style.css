@@ -20,12 +20,18 @@ li {
     color: #F28004;
 }
 
-
 .container {
-    /* width: 1080px; */
     max-width: 1080px;
     margin: 0 auto;
     padding: 0 25px
+}
+
+.selection {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #47525E;
+    border-radius: 5px;
+    margin: 0 auto;
 }
 
 .anchor {
@@ -86,15 +92,13 @@ li {
 }
 
 .carousel {
-    margin-top: 50px;
+    /* margin-top: 70px; */
     max-height: calc(100vh - 80px);
 }
 
 .quadro_venda {
     border: #1B3970 2px solid;
     border-radius: 5px;
-    /* width: 1000px; */
-    /* height: 450px; */
     margin: 0 auto;
 }
 
@@ -113,11 +117,26 @@ li {
     box-shadow: 0px 0px 45px -6px rgba(0, 0, 0, 0.1);
 }
 
+.maps {
+    overflow: hidden;
+}
+
 @media (min-width: 1800px) { 
-    .carousel {
+    .carousel , .maps {
         margin: 0 auto;
         max-width: 1200px;
-        /* height: auto; */
+    }
+
+    /* .carousel {
+        margin-top: 80px;
+    } */
+    
+}
+
+@media (max-width: 768px){
+    
+    .logo {
+        width: 120px;
     }
 }
     

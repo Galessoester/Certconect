@@ -41,9 +41,6 @@
                                 <a class="nav-link" href="#renovacao">Renovação</a>
                             </li>
                             <li>
-                                <a class="nav-link" href="#atendimento">Atendimento</a>
-                            </li>
-                            <li>
                                 <a class="nav-link" href="#contato">Contato</a>
                             </li>
                             <li>
@@ -58,7 +55,7 @@
     </header>
 
     <div class="anchor" id="#"></div>
-    <section class="carousel slide" data-ride="carousel">
+    <section class="carousel slide mt-5" data-ride="carousel">
         <!-- Adicione as imagens do carrossel -->
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner carousel">
@@ -99,20 +96,37 @@
                     <div class="color_dark">
                         <h4>Selecione:</h4>
                     </div>
-                    <ul class="nav justify-content-center bg-light">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">1 - Certificado</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">2 - Tipo e Mídia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">3 - Validade</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">4 - Finalizar</a>
-                        </li>
-                    </ul>
+                    <div class="pb-4">
+                        <ul class="nav justify-content-center bg-light">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">1 - Certificado</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">2 - Tipo e Mídia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">3 - Validade</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">4 - Finalizar</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row justify-content-evenly pb-4">
+                        <div class="col-4">
+                            <div class="selection"></div>
+                        </div>
+                        <div class="col-4">
+                            <div class="selection"></div>
+                        </div>
+                        <div class="col-4">
+                            <div class="selection"></div>
+                        </div>
+                    </div>
+                    <div class="col text-end">
+                        <a href="#" class="btn bg_yellow text-white">Continuar</a>
+                    </div>
+
                     <!-- <div class="position-relative m-4">
                         <div class="progress" style="height: 1px;">
                             <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
@@ -135,7 +149,7 @@
 
     <div class="line col-7"></div>
     <div class="anchor" id="outros-produtos"></div>
-    <section class="">
+    <section>
         <div class="container mb-4">
             <h1 class="title color_orange">Outros Produtos</h1>
 
@@ -143,9 +157,9 @@
         </div>
         <div class="container mb-5 ">
 
-            <div class="row align-items-center mx-auto">
-                <div class="col-10 col-md-4">
-                    <div class="card" style="width: 18rem;">
+            <div class="row justify-content-evenly mx-auto">
+                <div class="col-10 col-md-3">
+                    <div class="card card_width">
                         <div class="card-body">
                             <h5 class="card-title">Leitora de Cartão</h5>
                         </div>
@@ -156,8 +170,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-10 col-md-4">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-10 col-md-3">
+                    <div class="card card_width">
                         <div class="card-body">
                             <h5 class="card-title">Smart Card</h5>
                         </div>
@@ -168,8 +182,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-10 col-md-4">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-10 col-md-3">
+                    <div class="card card_width">
                         <div class="card-body">
                             <h5 class="card-title">Token USB</h5>
                         </div>
@@ -223,12 +237,15 @@
         </div>
     </section>
     <div class="anchor" id="contato"></div>
-    <section style="overflow: hidden;">
+    <section class="maps">
         <div class="row justify-content-evenly">
-            <div class="col-8">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.5570231683673!2d-46.5499176!3d-23.6917945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4235d09e0713%3A0x945da78ebc00d44a!2sR.%20Jos%C3%A9%20Versolato%20-%20S%C3%A3o%20Bernardo%20do%20Campo%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1677180008445!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col-12 col-md-8">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.5570231683673!2d-46.5499176!3d-23.6917945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4235d09e0713%3A0x945da78ebc00d44a!2sR.%20Jos%C3%A9%20Versolato%20-%20S%C3%A3o%20Bernardo%20do%20Campo%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1677180008445!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="col-4">
+            <div class="col-10 col-md-4">
                 <div class="bg_white px-4 py-5">
                     <div class="color_dark">
                         <h2>Onde estamos</h2>
@@ -251,42 +268,6 @@
                     </div>
                 </div>
             </div>
-          </div>
-    </section>
-
-
-
-
-
-    <section>
-        <div class="row">
-            <!-- <div class="col">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.565596829592!2d-46.55157728575875!3d-23.69148808461841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce42366db803a1%3A0xcf94136842bd98d!2sEdif%C3%ADcio%20Domo%20Business%20-%20Torre%20B%20-%20R.%20Jos%C3%A9%20Versolato%2C%20111%20-%20Sala%20822%20-%20Centro%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009750-730!5e0!3m2!1spt-BR!2sbr!4v1676584737912!5m2!1spt-BR!2sbr"
-                    height="400" style="border:0; width: 100%;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div> -->
-            <!-- <div class="col bg_white px-4 py-5">
-                <div class="color_dark">
-                    <h2>Onde estamos</h2>
-                    <p>
-                        Rua José Versolato, 1111, Sala 1106 <br>
-                        São Bernardo do Campo - SP
-                        09750-730
-                    </p>
-                    <p>
-                        Email: contato@certifast.com.br <br>
-                        Tel: (11) 3280-0484
-                    </p>
-                    <p>
-                        <b>Horário de Atendimento</b>
-                    </p>
-                    <p>
-                        Segunda a Sexta das 9h às 18h
-                        (exceto feriados nacionais)
-                    </p>
-                </div>
-            </div> -->
         </div>
     </section>
     <footer class="bg_dark">
@@ -300,7 +281,6 @@
                         <h5 class="text-white"><strong>Associações</strong></h5>
                         <a class="link_footer" href="">Autoridade Certificadora Brasileira de Registros</a><br>
                         <a class="link_footer" href="">Receita Federal</a><br>
-                        <a class="link_footer" href="">CertiSign - Credenciada</a>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -308,7 +288,6 @@
                         <a class="link_footer" href="#certificados">Certificados</a> <br>
                         <a class="link_footer" href="#outros-produtos">Outros Produtos</a> <br>
                         <a class="link_footer" href="#renovacao">Renovação</a> <br>
-                        <a class="link_footer" href="#atendimento">Atendimento</a> <br>
                         <a class="link_footer" href="#contato">Contato</a>
                     </div>
                 </div>
@@ -317,8 +296,6 @@
                         <div class="text-white">
                             <p>
                                 A Certifast é uma Autoridade de Registro credenciada originariamente junto à AC
-                                Certisign -
-                                <a class="link_footer" href=""> Saiba mais</a>
                             </p>
                             <p>
                                 Todos os Certificados Digitais são da ICP BRASIL, o que garante total segurança e
