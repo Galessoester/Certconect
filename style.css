@@ -1,6 +1,8 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Raleway', sans-serif; 
-font-family: 'Source Sans Pro', sans-serif;*/
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
 
 body {
     margin: 0;
@@ -26,13 +28,21 @@ li {
     padding: 0 25px
 }
 
-.selection {
+/* .selection {
     width: 90px;
     height: 90px;
     border: 1px solid #47525E;
     border-radius: 5px;
     margin: 0 auto;
-}
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+} */
+
+/* .selection span {
+    font-size: 12px;
+    font-weight: ;
+} */
 
 .anchor {
     height: 10rem;
@@ -88,11 +98,10 @@ li {
 }
 
 .logo {
-    width: 150px;
+    width: 170px;
 }
 
 .carousel {
-    /* margin-top: 70px; */
     max-height: calc(100vh - 80px);
 }
 
@@ -105,10 +114,15 @@ li {
 .card {
     border: none;
     border-radius: 5px;
+    
 }
 
 .card-body {
     padding: 1.5rem;
+}
+
+.card_img {
+    height: 164px
 }
 
 .shadow {
